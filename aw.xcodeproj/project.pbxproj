@@ -12,6 +12,16 @@
 		385E59C72063047B00A68EC9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 385E59C52063047B00A68EC9 /* Main.storyboard */; };
 		385E59C92063047B00A68EC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 385E59C82063047B00A68EC9 /* Assets.xcassets */; };
 		385E59CC2063047B00A68EC9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 385E59CA2063047B00A68EC9 /* LaunchScreen.storyboard */; };
+		385E59D52063073900A68EC9 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 385E59D42063073900A68EC9 /* MapKit.framework */; };
+		38A6C8D92066759A00B5BA29 /* RunListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A6C8D82066759A00B5BA29 /* RunListTableViewController.swift */; };
+		38A6C8DB206677EC00B5BA29 /* RunListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A6C8DA206677EC00B5BA29 /* RunListTableViewCell.swift */; };
+		38A6C8E3206687EC00B5BA29 /* MOCViewControllerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A6C8E2206687EC00B5BA29 /* MOCViewControllerType.swift */; };
+		38A6C8E82066882300B5BA29 /* NSPersistentContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A6C8E72066882300B5BA29 /* NSPersistentContainer.swift */; };
+		38A6C8EA2066884800B5BA29 /* NSManagedObjectContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A6C8E92066884800B5BA29 /* NSManagedObjectContext.swift */; };
+		38A6C8ED2066E6EC00B5BA29 /* AmericanWhitewater.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 38A6C8EB2066E6EC00B5BA29 /* AmericanWhitewater.xcdatamodeld */; };
+		38A6C8EF2067074700B5BA29 /* Reach.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A6C8EE2067074700B5BA29 /* Reach.swift */; };
+		38A6C8F120670AEF00B5BA29 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A6C8F020670AEF00B5BA29 /* MapViewController.swift */; };
+		38C421542065C7DE0044D717 /* AWApiHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C421532065C7DE0044D717 /* AWApiHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +32,16 @@
 		385E59C82063047B00A68EC9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		385E59CB2063047B00A68EC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		385E59CD2063047B00A68EC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		385E59D42063073900A68EC9 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		38A6C8D82066759A00B5BA29 /* RunListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunListTableViewController.swift; sourceTree = "<group>"; };
+		38A6C8DA206677EC00B5BA29 /* RunListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunListTableViewCell.swift; sourceTree = "<group>"; };
+		38A6C8E2206687EC00B5BA29 /* MOCViewControllerType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MOCViewControllerType.swift; sourceTree = "<group>"; };
+		38A6C8E72066882300B5BA29 /* NSPersistentContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSPersistentContainer.swift; sourceTree = "<group>"; };
+		38A6C8E92066884800B5BA29 /* NSManagedObjectContext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSManagedObjectContext.swift; sourceTree = "<group>"; };
+		38A6C8EC2066E6EC00B5BA29 /* AmericanWhitewater.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AmericanWhitewater.xcdatamodel; sourceTree = "<group>"; };
+		38A6C8EE2067074700B5BA29 /* Reach.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reach.swift; sourceTree = "<group>"; };
+		38A6C8F020670AEF00B5BA29 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		38C421532065C7DE0044D717 /* AWApiHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AWApiHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				385E59D52063073900A68EC9 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +61,7 @@
 			children = (
 				385E59C02063047B00A68EC9 /* aw */,
 				385E59BF2063047B00A68EC9 /* Products */,
+				385E59D32063073900A68EC9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +76,95 @@
 		385E59C02063047B00A68EC9 /* aw */ = {
 			isa = PBXGroup;
 			children = (
+				38A6C8E1206687CE00B5BA29 /* Extensions */,
+				38A6C8E0206687C700B5BA29 /* Protocols */,
+				38A6C8DC206685AE00B5BA29 /* Models */,
+				38C421552065C9940044D717 /* ViewControllers */,
+				38C421522065C7C10044D717 /* Helpers */,
 				385E59C12063047B00A68EC9 /* AppDelegate.swift */,
 				385E59C32063047B00A68EC9 /* ViewController.swift */,
 				385E59C52063047B00A68EC9 /* Main.storyboard */,
 				385E59C82063047B00A68EC9 /* Assets.xcassets */,
 				385E59CA2063047B00A68EC9 /* LaunchScreen.storyboard */,
 				385E59CD2063047B00A68EC9 /* Info.plist */,
+				38A6C8EB2066E6EC00B5BA29 /* AmericanWhitewater.xcdatamodeld */,
 			);
 			path = aw;
+			sourceTree = "<group>";
+		};
+		385E59D32063073900A68EC9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				385E59D42063073900A68EC9 /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		38A6C8DC206685AE00B5BA29 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		38A6C8E0206687C700B5BA29 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				38A6C8E2206687EC00B5BA29 /* MOCViewControllerType.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		38A6C8E1206687CE00B5BA29 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				38A6C8E72066882300B5BA29 /* NSPersistentContainer.swift */,
+				38A6C8E92066884800B5BA29 /* NSManagedObjectContext.swift */,
+				38A6C8EE2067074700B5BA29 /* Reach.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		38C421522065C7C10044D717 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				38C421532065C7DE0044D717 /* AWApiHelper.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		38C421552065C9940044D717 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				38C421582065C9AF0044D717 /* More */,
+				38C421572065C9A40044D717 /* Reaches */,
+				38C421562065C99E0044D717 /* News */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		38C421562065C99E0044D717 /* News */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = News;
+			sourceTree = "<group>";
+		};
+		38C421572065C9A40044D717 /* Reaches */ = {
+			isa = PBXGroup;
+			children = (
+				38A6C8D82066759A00B5BA29 /* RunListTableViewController.swift */,
+				38A6C8DA206677EC00B5BA29 /* RunListTableViewCell.swift */,
+				38A6C8F020670AEF00B5BA29 /* MapViewController.swift */,
+			);
+			path = Reaches;
+			sourceTree = "<group>";
+		};
+		38C421582065C9AF0044D717 /* More */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = More;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -97,6 +200,11 @@
 					385E59BD2063047B00A68EC9 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -136,8 +244,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38A6C8F120670AEF00B5BA29 /* MapViewController.swift in Sources */,
 				385E59C42063047B00A68EC9 /* ViewController.swift in Sources */,
+				38A6C8EA2066884800B5BA29 /* NSManagedObjectContext.swift in Sources */,
 				385E59C22063047B00A68EC9 /* AppDelegate.swift in Sources */,
+				38A6C8ED2066E6EC00B5BA29 /* AmericanWhitewater.xcdatamodeld in Sources */,
+				38A6C8E3206687EC00B5BA29 /* MOCViewControllerType.swift in Sources */,
+				38A6C8DB206677EC00B5BA29 /* RunListTableViewCell.swift in Sources */,
+				38A6C8E82066882300B5BA29 /* NSPersistentContainer.swift in Sources */,
+				38A6C8EF2067074700B5BA29 /* Reach.swift in Sources */,
+				38A6C8D92066759A00B5BA29 /* RunListTableViewController.swift in Sources */,
+				38C421542065C7DE0044D717 /* AWApiHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -322,6 +439,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		38A6C8EB2066E6EC00B5BA29 /* AmericanWhitewater.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				38A6C8EC2066E6EC00B5BA29 /* AmericanWhitewater.xcdatamodel */,
+			);
+			currentVersion = 38A6C8EC2066E6EC00B5BA29 /* AmericanWhitewater.xcdatamodel */;
+			path = AmericanWhitewater.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 385E59B62063047B00A68EC9 /* Project object */;
 }
