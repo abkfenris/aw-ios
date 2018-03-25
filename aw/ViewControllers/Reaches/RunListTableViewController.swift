@@ -25,6 +25,19 @@ class RunListTableViewController: UIViewController, MOCViewControllerType {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        switch segue.identifier! {
+        case Segue.RunDetail.rawValue:
+            guard let detailVC = segue.destination as? RunDetailTableViewController,
+                let indexPath = tableView.indexPathForSelectedRow,
+                let reach = fetchedResultsController?.fetchedObjects![indexPath.row] else { return }
+            
+            detailVC.reach = reach    
+        default:
+            print("Unknown segue!")
+        }
+    }
 }
 
 extension RunListTableViewController {
