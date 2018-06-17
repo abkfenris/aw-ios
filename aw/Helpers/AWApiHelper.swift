@@ -94,9 +94,8 @@ struct AWApiHelper {
             reach.section = newReach.section
         }
 
-        if let data = reach.section?.data(using: .utf8),
-            let html = try? NSMutableAttributedString(data: data, options: [NSAttributedString.DocumentReadingOptionKey.documentType: NSAttributedString.DocumentType.html], documentAttributes: nil) {
-            reach.section = html.string
+        if let section = reach.section {
+            reach.section = section.htmlToString
         }
 
         reach.putInLat = newReach.putInLat
